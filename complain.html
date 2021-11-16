@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPLAIN FORM</title>
+    <link rel="stylesheet" href="complainstyle.css">
+</head>
+<body>
+    <div class="con">
+    <form action="" >
+        <h1>COMPLAIN FORM</h1>
+        <hr>
+<p class="a">
+    This form is only for buit college students. Those who have any kind of problem regarding college forms, websites and personal queries they can fill the form and submit. Required fields are followed by (*).
+</p>
+<hr>
+
+        <p>NAME: * <input type="text" name="name" required></p>
+        <p>
+         DATE OF BIRTH : *<input type="date" name="dob_date" id="dob_date" required>
+        </p>
+        <p>BRACH : *
+            <select name="branch" id="branch" required>
+            <option value="">-------------------------Select------------------------</option>
+            <option value="CSE">COMPUTER SCIENCE AND ENGINEERING</option>
+            <option value="CE">CIVIL ENGINEERING</option>
+            <option value="IT">INFORMATION TECHNOLOGY</option>
+            <option value="ME">MECHANICAL ENGINEERING</option>
+            <option value="IT">ELECTRONICS AND COMMUNICATION</option>
+         </select>
+        </p>
+        <p>SEMESTER : *
+            <select name="sem" id="sem" required>
+            <option value="">-------------------------Select------------------------</option>
+            <option value="first">1st SEMESTER</option>
+            <option value="second">2nd SEMESTER</option>
+            <option value="third">3rd SEMESTER</option>
+            <option value="fourth">4th SEMESTER</option>
+            <option value="fifth">5th SEMESTER</option>
+            <option value="sixth">6th SEMESTER</option>
+            <option value="seventh">7th SEMESTER</option>
+            <option value="eighth">8th SEMESTER</option>
+         </select>
+        </p>
+        
+        <p>YEAR : *
+            <select name="year" id="year" required>
+            <option value="">-------------------------Select------------------------</option>
+            <option value="firsty">1st YEAR</option>
+            <option value="secondy">2nd YEAR</option>
+            <option value="thirdy">3rd YEAR</option>
+            <option value="fourthy">4th YEAR</option>
+         </select>
+        </p>
+        <p>
+            ROLL NUMBER: * <input type="number" name="roll_number" id="roll_number" required>
+        </p>
+            <legend>GENDER *</legend>
+            <fieldset>
+        <p>
+            MALE <input type="radio" name="gender" id="male" required>
+            FEMALE <input type="radio" name="gender" id="female" required>
+        </p>
+        </fieldset>
+        <p>HOME ADDRESS: <textarea name="addresss" id="address" cols="40" rows="4"></textarea></p>
+       <p>EMAIL: *<input type="email" name="email" id="email" required></p>
+       <p>PINCODE: *<input type="number" name="pincode" id="pincode" required></p>  
+       <p>COMPLAIN TYPE : *
+        <select name="ctype" id="ctype" required>
+        <option value="">-------------------------Select------------------------</option>
+        <option value="FESS SUBMITION PROBLEM">FESS SUBMITION PROBLEM</option>
+        <option value="EXAM FORM PROBLEM">EXAM FORM PROBLEM</option>
+        <option value="STUDENT DETAIL CORRECTION">STUDENT DETAIL CORRECTION</option>
+        <option value="RESULT PROBLEM">RESULT PROBLEM</option>
+        <option value="ENROLLMENT PROBLEM">ENROLLMENT PROBLEM</option>
+        <option value="OTHER PROBLEM">OTHER PROBLEM</option>
+     </select>
+    </p>
+       <p>WRITE YOUR COMPLAIN : * <textarea name="complain" id="complain" cols="100" rows="10" required></textarea></p>
+       <p>
+        <input type="submit" value="Submit"> &nbsp;&nbsp;
+        <input type="reset" value="Reset">
+       </p>
+    </div>
+</body>
+</html>
